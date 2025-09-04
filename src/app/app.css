@@ -1,0 +1,53 @@
+
+* {
+    max-width: 100%;
+    margin: 0;
+}
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+p, h1, h2, h3 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+         p{
+            font-family: "Open Sans", sans-serif;
+            color: var(--secondary-color);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+         }
+}
+
+.Card-presentation {
+    display: flex;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 1rem;
+    overflow: visible;
+    flex-direction: column;
+    background-color: antiquewhite;
+    
+}
+h1{
+    font-family: "Bebas Neue",sans-serif;
+}
